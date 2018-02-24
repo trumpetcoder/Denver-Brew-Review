@@ -1,0 +1,23 @@
+{
+  "name": "Denver-Brew-Review",
+  "version": "1.0.0",
+  "description": "Denver-Brew-Review The Denver-Brew-Review is a project near and dear to my heart. As many people in my life know, I have a love for craft beer. I have worked in the brewing field, met my life long companion working in a brew-pub, and can be found relaxing in one of the many local breweries usually winning trivia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd front-end && ng build --aot -prod -op ../back-end/dist && cd ..",
+    "start": "node back-end/server.js",
+    "postinstall": "cd back-end && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trumpetcoder/Denver-Brew-Review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trumpetcoder/Denver-Brew-Review/issues"
+  },
+  "homepage": "https://github.com/trumpetcoder/Denver-Brew-Review#readme"
+}
