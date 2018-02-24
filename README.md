@@ -17,10 +17,10 @@ Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
 
 Competing technologies:
 
-Link to [NC Brewery](http://ncbeer.brewerymap.com/)
-Link to [Beer Menus App](https://www.beermenus.com/) 
-Link to [Yelp Denver](https://www.yelp.com/denver)
-Link to [Untapped](https://untappd.com/)
+Link to [NC Brewery](http://ncbeer.brewerymap.com/)<br>
+Link to [Beer Menus App](https://www.beermenus.com/)<br>
+Link to [Yelp Denver](https://www.yelp.com/denver)<br>
+Link to [Untapped](https://untappd.com/)<br>
 
 Stretch goals:
 Employ phone technology to add user photos to their accounts.
