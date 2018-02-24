@@ -41,7 +41,7 @@ Third Party API's used:
 Google Maps API (Users can drop pins of visited breweries)
 BreweryDB API (For Information regarding particular breweries)
 
-Link to Trello
+Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
 
 Competing technologies:
 
