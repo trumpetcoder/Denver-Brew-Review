@@ -54,3 +54,5 @@ Employ phone technology to add user photos to their accounts.
 Have a chat room enabled for users that they can participate in.
 Use of the App for meetups and in a social platform setting.
 Reverse notification from breweries on release dates of new beers and events.
+
+<!-- Current End of File! -->
