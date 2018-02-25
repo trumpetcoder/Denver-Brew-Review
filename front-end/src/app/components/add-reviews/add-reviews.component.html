@@ -1,3 +1,39 @@
-<p>
-  add-reviews works!
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <a routerLink='/' class="btn btn-link"><i class="fa fa-arrow-circle-o-left"></i> Back to Reviews</a>
+  </div>
+  <div class="col-md-6">
+
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    Add Brewery
+  </div>
+  <div class="card-body">
+    <form #reviewsForm="ngForm" (ngSubmit)="onSubmit(reviewsForm)">
+      <div class="form-group">
+        <label for="breweryName">Brewery Name</label>
+        <input 
+          type="text"
+          class="form-control"
+          name="breweryName"
+          #reviewsBreweryName="ngModel"
+          [ngClass]="{'is-invalid': reviewsBreweryName.errors && reviewsBreweryName.touched}"
+          [(ngModel)]="breweryName"
+          minlength="2"
+          required  
+        >
+        <div [hidden]="!reviewsBreweryName.errors?.required" class="invalid-feedback">
+          Brewery Name Required
+        </div>
+
+        <div [hidden]="!reviewsBreweryName.errors?.minlength" class="invalid-feedback">
+          Must Be at least 2 characters
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
