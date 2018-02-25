@@ -8,9 +8,11 @@
 </div>
 
 <div class="card">
+  
   <div class="card-header">
     Add Brewery
   </div>
+  
   <div class="card-body">
     <form #reviewsForm="ngForm" (ngSubmit)="onSubmit(reviewsForm)">
       <div class="form-group">
@@ -33,6 +35,53 @@
           Must Be at least 2 characters
         </div>
       </div>
+
+      <div class="form-group">
+          <label for="breweryDescription">Brewery Description</label>
+          <input 
+            type="text"
+            class="form-control"
+            name="breweryDescription"
+            #reviewsBreweryDescription="ngModel"
+            [ngClass]="{'is-invalid': reviewsBreweryDescription.errors && reviewsBreweryDescription.touched}"
+            [(ngModel)]="breweryDescription"
+            minlength="2"
+            required  
+          >
+          <div [hidden]="!reviewsBreweryDescription.errors?.required" class="invalid-feedback">
+            Brewery Description Required
+          </div>
+  
+          <div [hidden]="!reviewsBreweryDescription.errors?.minlength" class="invalid-feedback">
+            Must Be at least 2 characters
+          </div>
+      
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          class="form-control"
+          name="email"
+          #reviewsEmail="ngModel"
+          [ngClass]="{'is-invalid': reviewsEmail.errors && reviewsEmail.touched}"
+          [(ngModel)]="reviews.email"
+          pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+          required
+        >
+        <div [hidden]="!reviewsEmail.errors?.required"
+        class="invalid-feedback">
+          Email required
+        </div>
+
+        <div [hidden]="!reviewsEmail.errors?.pattern"
+        class="invalid-feedback">
+          Email is not Valid
+        </div>
+    </div>
+    
+        
 
     </form>
   </div>
