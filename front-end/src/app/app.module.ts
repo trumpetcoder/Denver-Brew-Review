@@ -17,6 +17,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { ReviewsDetailsComponent } from './components/reviews-details/reviews-details.component';
 import { AddReviewsComponent } from './components/add-reviews/add-reviews.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { ReviewsService } from './services/reviews.service';
 
 
 
@@ -42,7 +43,7 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [ReviewsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
