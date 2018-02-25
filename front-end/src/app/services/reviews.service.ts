@@ -14,7 +14,7 @@ export class ReviewsService {
   constructor(private afs: AngularFirestore) {
     this.reviewsCollection = this.afs.collection('reviews', ref => ref.orderBy('breweryName', 'asc'));
   }
-
+  // Logic for retrieving reviews from firestore
   getReviews(): Observable<Reviews[]> {
     //Get Reviews with ID
     this.reviews = this.reviewsCollection.snapshotChanges().map(changes => {
@@ -25,6 +25,10 @@ export class ReviewsService {
       });
     });
     return this.reviews;
+  }
+  // Logic for adding new reviews to backend
+  newReviews(reviews: Reviews) {
+    this.reviewsCollection.add(reviews);
   }
 
 }
