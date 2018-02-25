@@ -11,7 +11,7 @@ import { Reviews } from '../../models/Reviews'; // Importing reviews model
 })
 export class ReviewsDetailsComponent implements OnInit {
   id: string;
-  review: Reviews;
+  review: Reviews; // bringing in interface line 5
 
   constructor(
     //Adding dependencies
