@@ -1,11 +1,15 @@
 <div class="row">
   
-  <div class="col-md-6">
+  <div class="col-md-10">
     <h2><i class="fa fa-list"></i> Reviews</h2>
+  </div>
+
+  <div class="col-md-2">
+    <a routerLink="/reviews/add" class="btn btn-success btn-block"><i class="fa fa-plus">New</i></a>
   </div>
   
 </div>
-<div class="col-md-12">    
+    
 <table *ngIf="reviews?.length > 0; else noReviews" class="table table-striped">
   <thead class="thead-inverse">
     <tr>
@@ -24,7 +28,7 @@
     </tr>
   </tbody>
 </table>
-</div>
+
 
 <ng-template #noReviews>
   <hr>
