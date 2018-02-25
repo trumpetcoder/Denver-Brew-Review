@@ -11,7 +11,7 @@ import { Reviews } from '../../models/Reviews'; // Importing reviews model
 })
 export class ReviewsDetailsComponent implements OnInit {
   id: string;
-  reviews: Reviews;
+  review: Reviews;
 
   constructor(
     //Adding dependencies
@@ -25,8 +25,9 @@ export class ReviewsDetailsComponent implements OnInit {
     // Getting id from url
     this.id = this.route.snapshot.params['id'];
     // Get review
-    this.reviewsService.getReviews(this.id).subscribe(reviews => {
-      this.reviews = reviews;
+    this.reviewsService.getReview(this.id).subscribe(reviews => {
+      this.review = reviews;
+      console.log(this.review);
     });
   }
 
