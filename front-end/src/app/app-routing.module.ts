@@ -18,10 +18,6 @@ const routes: Routes = [
   {path: 'reviews/edit/:id', component: EditReviewsComponent},
   {path: 'reviews/:id', component: ReviewsDetailsComponent},
   {path: 'reviews', component: ReviewsComponent},
-  
-  
-  
-
 ];
 
 
