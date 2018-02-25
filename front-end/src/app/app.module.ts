@@ -20,6 +20,7 @@ import { ReviewsDetailsComponent } from './components/reviews-details/reviews-de
 import { AddReviewsComponent } from './components/add-reviews/add-reviews.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { ReviewsService } from './services/reviews.service';
+import { AuthService } from './services/auth.service';
 
 
 
@@ -47,7 +48,7 @@ import { ReviewsService } from './services/reviews.service';
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [ReviewsService],
+  providers: [ReviewsService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
