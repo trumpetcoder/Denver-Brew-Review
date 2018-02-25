@@ -30,5 +30,19 @@ export class ReviewsService {
   newReviews(reviews: Reviews) {
     this.reviewsCollection.add(reviews);
   }
+  // Logic for grabbing individual reviews
+  getReviews(id: string): Observable<Reviews> {
+    this.reviewDoc = this.afs.doc<Reviews>(`reviews/${id}`);
+    this.reviews = this.reviewDoc.snapshotChanges().map(action => {
+      if(action.payload.exists === false) {
+        return null; //error handling
+      } else {
+        const data = action.payload.data() as Reviews;
+        data.id = action.payload.id;
+        return data;
+      }
+    });
+    return this.reviews;
+  }
 
 }
