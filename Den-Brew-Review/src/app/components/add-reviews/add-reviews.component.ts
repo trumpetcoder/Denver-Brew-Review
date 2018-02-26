@@ -11,7 +11,7 @@ import { Reviews } from '../../models/Reviews';
   styleUrls: ['./add-reviews.component.css']
 })
 export class AddReviewsComponent implements OnInit {
-  // Review  
+  // Reviews model 
   reviews: Reviews = {
     breweryName: '',
     breweryReview: '',

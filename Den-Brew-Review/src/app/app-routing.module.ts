@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router'; 
-
+// Bringing in the components
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -11,7 +11,7 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
 
 import { AuthGuard } from './guards/auth.guard'; //import of authguard and added to routes
 
-
+// Route buildout adn logic
 const routes: Routes = [
   {path: '', component: DashboardComponent, canActivate:[AuthGuard]},
   {path: 'login', component: LoginComponent},
@@ -26,8 +26,8 @@ const routes: Routes = [
 @NgModule({
   exports: [RouterModule],
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes) // links to routes above
   ],
-  providers: [AuthGuard]
+  providers: [AuthGuard] // Auth guard provider use
 })
 export class AppRoutingModule { }
