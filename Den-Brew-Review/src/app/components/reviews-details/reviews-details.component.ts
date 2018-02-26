@@ -29,7 +29,7 @@ export class ReviewsDetailsComponent implements OnInit {
     // Get review 
     this.reviewsService.getReview(this.id).subscribe(reviews => {
       this.review = reviews;
-      console.log(this.review); // checking to see if we are retrieving particular review
+      console.log(this.review); // checking to see if we are retrieving particular review by id
     })
   }
 

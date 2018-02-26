@@ -24,6 +24,7 @@
       <td>{{ review.breweryName }}</td>
       <td>{{ review.breweryReview }}</td>
       <td>{{ review.email }}</td>
+      <!-- This line fixed for retrieving by id!!!! -->
       <td><a routerLink="reviews/{{ review.id }}" class="btn btn-secondary btn-small"><i class="fa fa-arrow-circle-o-right"></i> Details</a></td>
     </tr>
   </tbody>
