@@ -31,5 +31,14 @@ export class NavbarComponent implements OnInit {
       }
     });
   }
+  // Logic function for logout when submitted 
+  onLogoutClick() {
+    this.authService.logout();
+    this.flashMessage.show('Thanks For Drinking', {
+      cssClass: 'alert-success', timeout: 4000 
+
+    });
+    this.router.navigate(['/login']);
+  }
 
 }
