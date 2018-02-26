@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ReviewsService } from '../../services/reviews.service'; // importing ReviewsService
 import { Router, ActivatedRoute, Params } from '@angular/router'; // Import to fetch params 
-import { FlashMessagesService } from 'angular2-flash-messages'; // imort flash messages for use
+import { FlashMessagesService } from 'angular2-flash-messages'; // import flash messages for use
 import { Reviews } from '../../models/Reviews'; // Importing Reviews Model
 
 

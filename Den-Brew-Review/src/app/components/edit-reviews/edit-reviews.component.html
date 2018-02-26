@@ -1,3 +1,90 @@
-<p>
-  edit-reviews works!
-</p>
+<div class="row">
+    <div class="col-md-6">
+      <a routerLink='/reviews/ {{ id }}' class="btn btn-link"><i class="fa fa-arrow-circle-o-left"></i> Back to Reviews</a>
+    </div>
+    <div class="col-md-6">
+  
+    </div>
+  </div>
+  
+  <div class="card">
+    
+    <div class="card-header">
+      Edit Review
+    </div>
+    
+    <div class="card-body">
+      <form #reviewsForm="ngForm" (ngSubmit)="onSubmit(reviewsForm)">
+        <div class="form-group">
+          <label for="breweryName">Brewery Name</label>
+          <input 
+            type="text"
+            class="form-control"
+            name="breweryName"
+            #reviewsBreweryName="ngModel"
+            [ngClass]="{'is-invalid': reviewsBreweryName.errors && reviewsBreweryName.touched}"
+            [(ngModel)]="review.breweryName"
+            minlength="2"
+            required  
+          >
+          <div [hidden]="!reviewsBreweryName.errors?.required" class="invalid-feedback">
+            Brewery Name Required
+          </div>
+  
+          <div [hidden]="!reviewsBreweryName.errors?.minlength" class="invalid-feedback">
+            Must Be at least 2 characters
+          </div>
+        </div>
+  
+        <div class="form-group">
+            <label for="breweryReview">Brewery Review</label>
+            <input 
+              type="text"
+              class="form-control"
+              name="breweryReview"
+              #reviewsBreweryReview="ngModel"
+              [ngClass]="{'is-invalid': reviewsBreweryReview.errors && reviewsBreweryReview.touched}"
+              [(ngModel)]="review.breweryReview"
+              minlength="2"
+              required  
+            >
+            <div [hidden]="!reviewsBreweryReview.errors?.required" class="invalid-feedback">
+              Brewery Review Required
+            </div>
+    
+            <div [hidden]="!reviewsBreweryReview.errors?.minlength" class="invalid-feedback">
+              Must Be at least 2 characters
+            </div>
+          </div>
+        
+        
+  
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            name="email"
+            #reviewsEmail="ngModel"
+            [ngClass]="{'is-invalid': reviewsEmail.errors && reviewsEmail.touched}"
+            [(ngModel)]="review.email"
+            pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+            required
+          >
+          <div [hidden]="!reviewsEmail.errors?.required"
+          class="invalid-feedback">
+            Email required
+          </div>
+  
+          <div [hidden]="!reviewsEmail.errors?.pattern"
+          class="invalid-feedback">
+            Email is not Valid
+          </div>
+      </div>
+    
+    <input type="submit" value="Submit" class="btn btn-primary btn-block">
+          
+  
+      </form>
+    </div>
+  </div>
