@@ -34,9 +34,21 @@ export class EditReviewsComponent implements OnInit {
       
     }
 
-  onSubmit({value, valid}, {value: Reviews, valid: boolean}) {
-
+  onSubmit({value, valid}: {value: Reviews, valid: boolean}) {
+    if(!valid) {
+      this.flashMessage.show('Please complete your edits', {
+        cssClass: 'alert-danger', timeout: 4000
+      });
+    } else {
+      value.id = this.id;
+      //updating review logic
+      this.reviewsService.updateReview(value);
+      this.flashMessage.show('Review updated', {
+        cssClass: 'alert-success', timeout: 4000
+      });
+      this.router.navigate(['/reviews/'+this.id]);
     }
   }
+}
 
 
