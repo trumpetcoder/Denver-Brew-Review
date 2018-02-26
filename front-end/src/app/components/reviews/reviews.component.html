@@ -3,13 +3,13 @@
   <div class="col-md-10">
     <h2><i class="fa fa-list"></i> Reviews</h2>
   </div>
-
+<!-- Button for adding new -->
   <div class="col-md-2">
     <a routerLink="/reviews/add" class="btn btn-success btn-block"><i class="fa fa-plus"> New</i></a>
   </div>
   
 </div>
-    
+<!-- Rendered table for found reviews in db with conditional statement with style added -->
 <table *ngIf="reviews?.length > 0; else noReviews" class="table table-striped">
   <thead class="thead-inverse">
     <tr>
@@ -19,7 +19,7 @@
       <th></th>
     </tr>
   </thead>
-  <tbody>
+  <tbody> <!-- rendered list of found reviews -->
     <tr *ngFor="let review of reviews">
       <td>{{ review.breweryName }}</td>
       <td>{{ review.breweryReview }}</td>
@@ -29,7 +29,7 @@
   </tbody>
 </table>
 
-
+<!-- Messaging for no reviews found -->
 <ng-template #noReviews>
   <hr>
   <h5>There are no reviews at this time</h5>
