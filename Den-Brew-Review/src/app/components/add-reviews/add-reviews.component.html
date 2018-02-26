@@ -23,7 +23,7 @@
           name="breweryName"
           #reviewsBreweryName="ngModel"
           [ngClass]="{'is-invalid': reviewsBreweryName.errors && reviewsBreweryName.touched}"
-          [(ngModel)]="breweryName"
+          [(ngModel)]="reviews.breweryName"
           minlength="2"
           required  
         >
@@ -44,7 +44,7 @@
             name="breweryReview"
             #reviewsBreweryReview="ngModel"
             [ngClass]="{'is-invalid': reviewsBreweryReview.errors && reviewsBreweryReview.touched}"
-            [(ngModel)]="breweryReview"
+            [(ngModel)]="reviews.breweryReview"
             minlength="2"
             required  
           >
