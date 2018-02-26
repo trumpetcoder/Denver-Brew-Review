@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/Forms';
 import { FlashMessagesModule } from 'angular2-flash-messages';
+import { AgmCoreModule } from '@agm/core';
 
 import { environment } from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
@@ -21,6 +22,7 @@ import { AddReviewsComponent } from './components/add-reviews/add-reviews.compon
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { ReviewsService } from './services/reviews.service';
 import { AuthService } from './services/auth.service';
+import { MapComponent } from './components/map/map.component';
 
 
 
@@ -36,12 +38,16 @@ import { AuthService } from './services/auth.service';
     ReviewsDetailsComponent,
     AddReviewsComponent,
     ReviewsComponent,
+    MapComponent,
     
     
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCH_uoLzYlr24LkZrsPfr4Yzi2tTnhVVRc'
+    }),
     FlashMessagesModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase,'denverbrewreview'),

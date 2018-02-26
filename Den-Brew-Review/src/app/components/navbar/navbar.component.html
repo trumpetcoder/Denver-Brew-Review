@@ -19,14 +19,18 @@
         <ul class="navbar-nav mr-auto">
           <li *ngIf="!isLoggedIn" class="nav-item">
             <a routerLink='/login' class="nav-link">Login</a>
+        </li>
+
+          <li *ngIf="isLoggedIn" class="nav-item">
+            <a href="#" class="nav-link">{{ loggedInUser }}</a>
           </li>
 
           <li *ngIf="isLoggedIn" class="nav-item">
-              <a href="#" class="nav-link">{{ loggedInUser }}</a>
+              <a routerLink='/map' class="nav-link">Map</a>
           </li>
 
           <li *ngIf="isLoggedIn" class="nav-item">
-              <a href="#" (click)="onLogoutClick()" class="nav-link">Logout</a>
+            <a href="#" (click)="onLogoutClick()" class="nav-link">Logout</a>
           </li>
         </ul>
       </ul>

@@ -8,6 +8,7 @@ import { AddReviewsComponent } from './components/add-reviews/add-reviews.compon
 import { EditReviewsComponent } from './components/edit-reviews/edit-reviews.component';
 import { ReviewsDetailsComponent } from './components/reviews-details/reviews-details.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { MapComponent } from './components/map/map.component';
 
 import { AuthGuard } from './guards/auth.guard'; //import of authguard and added to routes
 
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'reviews/edit/:id', component: EditReviewsComponent, canActivate:[AuthGuard]},
   {path: 'reviews/:id', component: ReviewsDetailsComponent, canActivate:[AuthGuard]},
   {path: 'reviews', component: ReviewsComponent, canActivate:[AuthGuard]},
+  {path: 'map', component: MapComponent},
 ];
 
 
