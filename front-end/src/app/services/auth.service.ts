@@ -16,5 +16,9 @@ export class AuthService {
     err => reject(err))
     });
   }
+  // Logic for removing login once logged in form angularFireBase docs
+  getAuth() {
+    return this.afAuth.authState.map(auth => auth);
+  }
 
 }

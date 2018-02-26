@@ -17,8 +17,13 @@ export class LoginComponent implements OnInit {
     private router: Router,
     private flashMessage: FlashMessagesService
   ) { }
-
+  // This code is hooked to auth.service code line 19
   ngOnInit() {
+    this.authService.getAuth().subscribe(auth => {
+      if(auth) {
+        this.router.navigate(['/']);
+      }
+    });
   }
   // Logic buildout for the login form with error handling and flashmessaging
   onSubmit() {
