@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ReviewsService } from '../../services/reviews.service'; // importing ReviewsService
-import { Router, ActivatedRoute, Params } from '@angular/router'; // Import to fetch params 
+import { Router, ActivatedRoute, Params } from '@angular/router'; // import to fetch params 
 import { FlashMessagesService } from 'angular2-flash-messages'; // import flash messages for use
 import { Reviews } from '../../models/Reviews'; // Importing Reviews Model
 
@@ -29,12 +29,12 @@ export class ReviewsDetailsComponent implements OnInit {
     // Get review 
     this.reviewsService.getReview(this.id).subscribe(reviews => {
       this.review = reviews;
-      console.log(this.review); // checking to see if we are retrieving particular review by id
+      console.log(this.review); // checking to see if we are retrieving review by id
     });
   }
-
+    //Logic for deleting individual reviews 
   onDeleteClick() {
-    if(confirm('Really want to delete this review?')) {
+    if(confirm('Really want to delete this review?')) { // alert confirm
       this.reviewsService.deleteReview(this.review);
       this.flashMessage.show('Review removed', {
         cssClass: 'alert-success', timeout: 4000
@@ -44,3 +44,5 @@ export class ReviewsDetailsComponent implements OnInit {
   }
 
 }
+
+// End

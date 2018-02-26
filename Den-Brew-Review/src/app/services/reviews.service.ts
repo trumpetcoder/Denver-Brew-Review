@@ -35,7 +35,7 @@ export class ReviewsService {
     this.reviewDoc = this.afs.doc<Reviews>(`reviews/${id}`);
     this.review = this.reviewDoc.snapshotChanges().map(action => {
       if(action.payload.exists === false) {
-        return null; //error handling
+        // return null; 
       } else {
         const data = action.payload.data() as Reviews; // grabbing the review
         data.id = action.payload.id;
@@ -59,3 +59,5 @@ export class ReviewsService {
 
 
 }
+
+// End

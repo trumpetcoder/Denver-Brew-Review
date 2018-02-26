@@ -33,13 +33,14 @@ export class EditReviewsComponent implements OnInit {
     this.reviewsService.getReview(this.id).subscribe(reviews => this.review = reviews);
       
     }
-
+    
   onSubmit({value, valid}: {value: Reviews, valid: boolean}) {
     if(!valid) {
       this.flashMessage.show('Please complete your edits', {
         cssClass: 'alert-danger', timeout: 4000
       });
     } else {
+      //adding id to review
       value.id = this.id;
       //updating review logic
       this.reviewsService.updateReview(value);
