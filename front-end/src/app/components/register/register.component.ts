@@ -20,7 +20,7 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  // onSubmit function for registration
   onSubmit(){
     this.authService.register(this.email, this.password)
       .then(res => {
