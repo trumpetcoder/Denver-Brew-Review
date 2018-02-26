@@ -8,8 +8,23 @@
     <div class="btn-group pull-right">
       <a routerLink="/reviews/edit/{{ id }}" class="btn btn-dark">Edit
       </a>
-      <button (click)="onDeleteClick()" class="btn- btn-danger">Delete</button>
+      <button (click)="onDeleteClick()" class="btn btn-danger">Delete</button>
     </div>
 
   </div>
 </div>
+<hr>
+<div *ngIf="review" class="card">
+  <h3 class="card-header">Brewery Name: {{ review.breweryName }}</h3>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">Brewery Review: {{ review.breweryReview }}</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- <hr>
+<div class="row">
+    <div class="col-md-6">Reviewer Email: {{ review.email }}</div>
+</div> -->
