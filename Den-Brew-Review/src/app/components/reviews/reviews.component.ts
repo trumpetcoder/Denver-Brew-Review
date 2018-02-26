@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ReviewsService } from '../../services/reviews.service';
+import { ReviewsService } from '../../services/reviews.service'; // importing the reviews service
 
-import { Reviews } from '../../models/Reviews'; 
+import { Reviews } from '../../models/Reviews'; // importing the reviews model
 
 @Component({
   selector: 'app-reviews',
@@ -9,7 +9,7 @@ import { Reviews } from '../../models/Reviews';
   styleUrls: ['./reviews.component.css']
 })
 export class ReviewsComponent implements OnInit {
-  reviews: Reviews[];  
+  reviews: Reviews[]; // setting reviews to the Reviews model 
 
   constructor(private reviewsService: ReviewsService) { }
   // on init retrieve the reviews from the db
