@@ -30,7 +30,7 @@ export class ReviewsService {
   newReviews(reviews: Reviews) {
     this.reviewsCollection.add(reviews);
   }
-  // Logic for grabbing individual reviews
+  // Logic for grabbing individual reviews using reviewsDoc
   getReview(id: string): Observable<Reviews> {
     this.reviewDoc = this.afs.doc<Reviews>(`reviews/${id}`);
     this.review = this.reviewDoc.snapshotChanges().map(action => {
