@@ -34,13 +34,11 @@ export class ReviewsService {
   getReview(id: string): Observable<Reviews> {
     this.reviewDoc = this.afs.doc<Reviews>(`reviews/${id}`);
     this.review = this.reviewDoc.snapshotChanges().map(action => {
-      if(action.payload.exists === false) {
-        // return null; 
-      } else {
+      
         const data = action.payload.data() as Reviews; // grabbing the review
         data.id = action.payload.id;
         return data;
-      }
+      
     });
     return this.review;
   }
