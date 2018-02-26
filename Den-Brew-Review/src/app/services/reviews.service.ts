@@ -44,10 +44,11 @@ export class ReviewsService {
     });
     return this.review;
   }
-  // Logic for updating Reviews Looking here for errors
-  updateReview(review: Reviews) {
-    this.reviewDoc = this.afs.doc(`reviews/$[review.id]`);
-    this.reviewDoc.update(review);
+  // Logic for updating Reviews Looking here for errors this is the problem!!!!!
+  updateReview(reviews: Reviews) {
+    this.reviewDoc = this.afs.doc(`reviews/${reviews.id}`);
+    console.log(this.reviewDoc);
+    this.reviewDoc.update(reviews);
   }
 
 }
