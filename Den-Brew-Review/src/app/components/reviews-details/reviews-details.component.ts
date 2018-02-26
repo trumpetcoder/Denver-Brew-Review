@@ -30,7 +30,17 @@ export class ReviewsDetailsComponent implements OnInit {
     this.reviewsService.getReview(this.id).subscribe(reviews => {
       this.review = reviews;
       console.log(this.review); // checking to see if we are retrieving particular review by id
-    })
+    });
+  }
+
+  onDeleteClick() {
+    if(confirm('Really want to delete this review?')) {
+      this.reviewsService.deleteReview(this.review);
+      this.flashMessage.show('Review removed', {
+        cssClass: 'alert-success', timeout: 4000
+      });
+      this.router.navigate(['/']);
+    }
   }
 
 }

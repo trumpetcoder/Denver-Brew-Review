@@ -46,9 +46,16 @@ export class ReviewsService {
   }
   // Logic for updating Reviews Looking here for errors this is the problem!!!!!
   updateReview(reviews: Reviews) {
-    this.reviewDoc = this.afs.doc(`reviews/${reviews.id}`);
+    this.reviewDoc = this.afs.doc(`reviews/${reviews.id}`); // needed object NOT array
     console.log(this.reviewDoc);
     this.reviewDoc.update(reviews);
   }
+
+  deleteReview(reviews: Reviews) {
+    this.reviewDoc = this.afs.doc(`reviews/${reviews.id}`); // needed object NOT array
+    console.log(this.reviewDoc);
+    this.reviewDoc.delete();
+  }
+
 
 }
