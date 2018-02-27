@@ -84,7 +84,22 @@ Also the virtues of component driven SAP's is an extremely valuable tool to have
 
 <h3>Screen Shots of Denver-Brew-Review</h3>
 
-![screen shot 2018-02-27 at 11 43 04 am height: 100px; width: 100px](https://user-images.githubusercontent.com/29238789/36747953-af0f6078-1bb3-11e8-84f9-884bf1250b71.png)
+![screen shot 2018-02-27 at 11 43 04 am](https://user-images.githubusercontent.com/29238789/36747953-af0f6078-1bb3-11e8-84f9-884bf1250b71.png)
+
+![screen shot 2018-02-27 at 11 44 07 am](https://user-images.githubusercontent.com/29238789/36748085-0aee6fb0-1bb4-11e8-84ce-439032ed3809.png)
+
+![screen shot 2018-02-27 at 11 44 34 am](https://user-images.githubusercontent.com/29238789/36748101-17df39d4-1bb4-11e8-805a-460e5c3afb20.png)
+
+<h3>Stretch Goals</h3>
+
+To transfer this to Ionic, Angulars mobile platform<br>
+To understand Firestore db construction better to try and create more relational data,structures. By Design Firestore is a flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.<br> 
+Be able to drop pins on map as the user sees fit instead of hard coded.<br>
+Have reviews accessible through the pins on the map.<br>
+Improve design and aesthetic appeal.<br>
+
+
+
 
 
 
