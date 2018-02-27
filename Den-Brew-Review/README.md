@@ -47,6 +47,8 @@ Descriptions of any unsolved problems or major hurdles you had to overcome<br>
 
 <h3>Ideation and design</h3>
 
+![screen shot 2018-02-27 at 11 39 12 am](https://user-images.githubusercontent.com/29238789/36747697-ee069356-1bb2-11e8-89a2-1c81f0d01be1.png)
+
 Denver-Brew-Review, by design, is a desktop application that a user can use to log reviews of breweries they have visited. It is comprised of a landing page that requires Login/Registration authentication, leading to a reviews forum and links to Google maps. Inside the reviews forum the user can Create, Update, Delete, See, and grab reviews of breweries thay and others have visited. The Google maps allows the User to see the location of breweries in the area. 
 
 The work flow of the project took shape by learning through tutorials that shaped the design and functionality. Initial ideas stem from the abundance of review sites that don't cater to particular niches of industries. The Denver Brew Review is centered on people who love craft beer, enjoy craft beer, and have informed opinions on the breweries, beers, and products. 
