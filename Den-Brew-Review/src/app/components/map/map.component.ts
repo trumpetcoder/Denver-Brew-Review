@@ -44,18 +44,18 @@ export class MapComponent implements OnInit {
   zoom = 13;
 
   constructor() { }
-
+  // running the add marker and set map coords on int
   ngOnInit() {
     const success = (pos) => {
       const loc = pos.coords;
       this.addMarker(loc);
       this.setMapCoords(loc);
     };
-
+  // error handling
     const error = (err) => {
       console.log(err);
     };
-
+  // grabbing current location through geolocation
     navigator.geolocation.getCurrentPosition(success,error);
     
   }
@@ -64,7 +64,7 @@ export class MapComponent implements OnInit {
     const marker = {
       lat: loc.latitude,
       lng: loc.longitude,
-      title: 'you'
+      title: 'your location'
     };
     this.markers.push(marker);
   }
