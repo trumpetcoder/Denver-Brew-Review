@@ -59,10 +59,15 @@ I also have incorporated Google maps through the AGM installation so that I can 
 
 My user base is centered around beer centric people who enjoy craft beer. It aims to give a platform for these people so that they may share their experiences in a forum that brings together like minded patrons. It provides these users with a trusted forum of reviewers who love craft beer and discuss it passionately. It will initially start with one user but grow as time and the technology of the App progresses. This is just the beginning.      
 
-
-
-
+Below is a link to my Trello buildout of what a User can expect to see and do:
 Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
+
+<h3>Technologies Used</h3>
+Firebase Authentication [Firebase](https://firebase.google.com/docs/)
+FireStore Databse [Firestore](https://firebase.google.com/docs/firestore/)
+Angular 4+ [Angular](https://angular.io/docs)
+Angular Google Maps [Angular Google Maps](https://angular-maps.com/api-docs/)
+CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment
 
 
 
