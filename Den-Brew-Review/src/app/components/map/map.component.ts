@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class MapComponent implements OnInit {
   latitude: number = 39.7392; // Denver Lat + Lng
   longitude: number = -104.9903;
+  zoom = 15;
+  
 
   onChoseLocation(event) {
     console.log(event); // Checking to see if click is registering
@@ -18,6 +20,7 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
