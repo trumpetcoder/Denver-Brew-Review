@@ -3,7 +3,7 @@
 <h2>Description</h2>
 The Denver-Brew-Review is a project I am personally passionate about, bringing together my love of craft beer and learning new technologies in my advancement in web development. The basis of the project stems from the ability to keep track of, and review breweries in the Denver metro area so that in the future I can be reminded of what I liked or disliked about a particular place. 
 
-With this passion in place, and my eyes firmly planted on my future in web development, I decided to build an application that can enter reviews and mark on a map of places I had visited. This is not only useful in remembering my impressions of local establishments, but also gives me the opportunity to learn new and exciting web technologies that I can leverage into future employment. 
+With this passion in place, and my eyes firmly planted on my future in web development, I decided to build an application that can enter reviews and mark on a map, places I had visited. This is not only useful in remembering my impressions of local establishments, but also gives me the opportunity to learn new and exciting web technologies that I can leverage into future employment. 
 
 When starting, I wanted to be able to gain inspiration from sources regarding what I could reasonably emulate in a short time frame of 5 days. There are four current sites that I have taken inspiration from to help guide my way in development. Denver-Brew-Review is not meant to emulate these sites. Only to gain inspiration and focus on a desired end of learning new technology in a functional setting.
 
@@ -80,7 +80,7 @@ The biggest hurdles I faced when tackling this project centered around learning 
 
 Communicating with the back end in a different way definitely at times became a problem. I learned a lot about [snapshot](https://firebase.google.com/docs/firestore/query-data/get-data) and how to capture individual id's from the url. Setup and deployment in firebase is well documented and I suggest all those that want to learn the resource to read further from the links or take a turorial. Google maps integration was on the surface an easy integration but the functionality is a fun one to learn. The documentation is not very good and leaves some gaps to fill.
 
-Also the virtues of component driven SAP's is an extremely valuable tool to have in the arsenal. I have gotten definetely more comfortable with the concept, creation, and implementation but realize there is much more to learn.
+Also the virtues of component driven SPA's is an extremely valuable tool to have in the arsenal. I have gotten definetely more comfortable with the concept, creation, and implementation but realize there is much more to learn.
 
 <h3>Screen Shots of Denver-Brew-Review</h3>
 
@@ -92,11 +92,19 @@ Also the virtues of component driven SAP's is an extremely valuable tool to have
 
 <h3>Stretch Goals</h3>
 
-To transfer this to Ionic, Angulars mobile platform<br>
-To understand Firestore db construction better to try and create more relational data,structures. By Design Firestore is a flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.<br> 
+Transfer this to Ionic, Angulars mobile platform<br>
+Understand Firestore db construction better to try and create more relational data,structures. By Design Firestore is a flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.<br> 
 Be able to drop pins on map as the user sees fit instead of hard coded.<br>
 Have reviews accessible through the pins on the map.<br>
 Improve design and aesthetic appeal.<br>
+
+A heartfelt thanks to Zeb, Joe, Tyler, Micah, and Jaycee for all the wisdom, patience, and guidance through this journey. It has been a long road and many times uncomfortable. I have learned a lot about programming, web development, and technology but even more about myself as a learner.<br>
+
+In addition thank you to Remy, Jin, Patrick, Mark, and the entire cohort for their patience,laughter, guidance, and calming demeanors throughout this course. I would not be nearly as far today without the help of everyone. 
+
+Cheers!
+
+Kevin D. James: General Assembly 2018 WDI6 Denver, CO 
 
 
 
