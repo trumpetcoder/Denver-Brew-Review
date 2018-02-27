@@ -1,26 +1,31 @@
-Denver-Brew-Review
-The Denver-Brew-Review is a project near and dear to my heart. As many people in my life know, I have a love for craft beer. I have worked in the brewing field, met my life long companion working in a brew-pub, and can be found relaxing in one of the many local breweries usually winning trivia.
+<h1>Denver Brew Review</h1>
 
-When trying to find new breweries to visit or remembering what my impressions are of past breweries I've been to, I have not found a reliable way to record my impressions and thoughts. I want to quickly and efficiently look at my impressions of atmosphere, beer selection, staff, pricing, etc.
+<h3>Description</h3>
+The Denver-Brew-Review is a project I am personally passionate about, bringing together my love of craft beer and learning new technologies in my advancement in web development. The basis of the project stems from the ability to keep track of, and review breweries in the Denver metro area so that in the future I can be reminded of what I liked or disliked about a particular place. 
 
-Sure, one can simply use notes on their phone. But our note files are filled with a jumble of varying material that is not centered around one particular thing. Enter the Denver-Brew-Review, the Yelp centered around breweries and beer bars.
+With this passion in place, and my eyes firmly planted on my future in web development, I decided to build an application that can enter reviews and mark on a map of places I had visited. This is not only useful in remembering my impressions of local establishments, but also gives me the opportunity to learn new and exciting web technologies that I can leverage into future employment. 
 
-The Denver-Brew-Review is a mobile responsive designed program that allows the user to record their impressions of the places they visit so that they can later be reminded of what they liked or didn't about a particular place. The user will be able to create, edit, delete, get, and update their experiences at a particular brewery. In addition, users will be able to read other reviews submitted by fellow users of the Denver-Brew-Review.
+When starting this I wanted to be able to gain inspiration from sources as to what I could reasonably emulate in a short time frame of 5 days. There are four current sites that I have taken inspiration from to help guide my way in development. Denver-Brew-Review is not meant to emulate these sites. Only to gain inspiration and focus on a desired end.
 
-Through the use of Google Maps API, and the BreweryDB.com API, users will be able to search for breweries and bars that are located near them. This can be cross referenced with reviews that already exist so users can read a little about the places in their area. They can add to reviews, so that other users can read their impressions.
-
-Third Party API's used:
-Google Maps API (Users can drop pins of visited breweries)
-BreweryDB API (For Information regarding particular breweries)
-
-Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
-
-Competing technologies:
+<h3>Sites used as guides and inspiration:</h3>
 
 Link to [NC Brewery](http://ncbeer.brewerymap.com/)<br>
 Link to [Beer Menus App](https://www.beermenus.com/)<br>
 Link to [Yelp Denver](https://www.yelp.com/denver)<br>
 Link to [Untapped](https://untappd.com/)<br>
+
+<h3>Mockup and User Flow</h3>
+
+Denver-Brew-Review, by design, is a desktop application that a user can use to log reviews of breweries they have visited. It is comprised of a landing page that requires Login/Registration authentication, leading to a reviews forum and links to Google maps. Inside the reviews forum the user can Create, Update, Delete, See, and grab reviews of breweries thay and others have visited. The Google maps allows the User to see the location of breweries in the area.   
+
+
+
+
+Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
+
+
+
+
 
 Stretch goals:
 Employ phone technology to add user photos to their accounts.
