@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {} from '@types/googlemaps'; 
-
+// interface setting up the lat/lng/title model
 export interface Marker { 
   lat: number;
   lng: number;
@@ -12,6 +12,7 @@ export interface Marker {
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
+// Setting up hard coded markers for display on map
 export class MapComponent implements OnInit {
   markers: Array<Marker> = [
     {
@@ -26,7 +27,7 @@ export class MapComponent implements OnInit {
     },
   ];
 
-  //map coordinates
+  //map coordinates setting zoom level
   lat: number;
   lng: number;
   zoom = 15;
@@ -47,7 +48,7 @@ export class MapComponent implements OnInit {
     navigator.geolocation.getCurrentPosition(success,error);
     
   }
-  
+  // using geo location to set center mark
   addMarker = (loc) => {
     const marker = {
       lat: loc.latitude,
@@ -56,6 +57,7 @@ export class MapComponent implements OnInit {
     };
     this.markers.push(marker);
   }
+  
   setMapCoords = (loc) => {
     this.lat = loc.latitude;
     this.lng = loc.longitude;
