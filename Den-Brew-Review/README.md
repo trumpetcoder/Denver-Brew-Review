@@ -98,6 +98,7 @@ Be able to drop pins on map as the user sees fit instead of hard coded.<br>
 Have reviews accessible through the pins on the map.<br>
 Improve design and aesthetic appeal.<br>
 
+<h3>Acknowledgements</h3>
 A heartfelt thanks to Zeb, Joe, Tyler, Micah, and Jaycee for all the wisdom, patience, and guidance through this journey. It has been a long road and many times uncomfortable. I have learned a lot about programming, web development, and technology but even more about myself as a learner.<br>
 
 In addition thank you to Remy, Jin, Patrick, Mark, and the entire cohort for their patience,laughter, guidance, and calming demeanors throughout this course. I would not be nearly as far today without the help of everyone. 
