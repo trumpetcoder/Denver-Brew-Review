@@ -63,11 +63,11 @@ Below is a link to my Trello buildout of what a User can expect to see and do:
 Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
 
 <h3>Technologies Used</h3>
-Firebase Authentication [Firebase](https://firebase.google.com/docs/)
-FireStore Databse [Firestore](https://firebase.google.com/docs/firestore/)
-Angular 4+ [Angular](https://angular.io/docs)
-Angular Google Maps [Angular Google Maps](https://angular-maps.com/api-docs/)
-CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment
+Firebase Authentication Link to [Firebase](https://firebase.google.com/docs/)<br>
+FireStore Databse [Firestore](https://firebase.google.com/docs/firestore/)<br>
+Angular 4+ [Angular](https://angular.io/docs)<br>
+Angular Google Maps [Angular Google Maps](https://angular-maps.com/api-docs/)<br>
+CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment<br>
 
 
 
