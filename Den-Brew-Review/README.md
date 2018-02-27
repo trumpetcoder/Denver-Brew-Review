@@ -32,9 +32,9 @@ Be deployed online so it's publicly accessible<br>
 <h3>Necessary Deliverables</h3>
 
 A working API, hosted somewhere on the internet [Google Maps Api](https://angular-maps.com/api-docs/)<br>
-A working front-end, hosted somewhere on the internet <br>
+A working front-end, hosted somewhere on the internet [Firebase Hosting](https://denverbrewreview.firebaseapp.com/login)<br>
 A link to your hosted working app in the URL section of your Github repo [Firebase Hosting](https://denverbrewreview.firebaseapp.com/login)<br>
-A git repository hosted on Github, with a link to your hosted project, and frequent<br>
+A git repository hosted on Github, with a link to your hosted project, and frequent [Git Repo](https://github.com/trumpetcoder/Denver-Brew-Review)<br>
 commits dating back to the very beginning of the project<br>
 A readme.md file with:<br>
 An embedded screenshot of the app<br>
@@ -53,7 +53,11 @@ The work flow of the project took shape by learning through tutorials that shape
 
 Initial conception started with deciding on a new technology I had not worked with before so that I can learn an in demand framework (Angular) combined with the requirements of a functional backend that can be manipulated (Firebase/Firestore). These technologies are not only valuable resources and industry standards, they are technologies in high demand in the market and something I will master going forward. 
 
-I also have incorporated Google maps through the AGM installation so that I can learn the technology and integration of another in demand resource.      
+I also have incorporated Google maps through the AGM installation so that I can learn the technology and integration of another in demand resource. 
+
+<h3>Who are the users, what do they want, why?</h3>
+
+My user base is centered around beer centric people who enjoy craft beer. It aims to give a platform for these people so that they may share their experiences in a forum that brings together like minded patrons. It provides these users with a trusted forum of reviewers who love craft beer and discuss it passionately. It will initially start with one user but grow as time and the technology of the App progresses. This is just the beginning.      
 
 
 
