@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
@@ -9,6 +10,9 @@ export class MapComponent implements OnInit {
   latitude: number = 39.7392; // Denver Lat + Lng
   longitude: number = -104.9903;
   zoom = 15;
+  
+  
+  
   
 
   onChoseLocation(event) {
