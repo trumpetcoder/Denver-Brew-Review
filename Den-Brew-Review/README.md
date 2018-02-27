@@ -31,9 +31,9 @@ Be deployed online so it's publicly accessible<br>
 
 <h3>Necessary Deliverables</h3>
 
-A working API, hosted somewhere on the internet<br>
-A working front-end, hosted somewhere on the internet<br>
-A link to your hosted working app in the URL section of your Github repo<br>
+A working API, hosted somewhere on the internet [Google Maps Api](https://angular-maps.com/api-docs/)<br>
+A working front-end, hosted somewhere on the internet <br>
+A link to your hosted working app in the URL section of your Github repo [Firebase Hosting](https://denverbrewreview.firebaseapp.com/login)<br>
 A git repository hosted on Github, with a link to your hosted project, and frequent<br>
 commits dating back to the very beginning of the project<br>
 A readme.md file with:<br>
@@ -45,9 +45,15 @@ Link to your user stories – who are your users, what do they want, and why?<br
 Link to your wireframes – sketches of major views / interfaces in your application<br>
 Descriptions of any unsolved problems or major hurdles you had to overcome<br>
 
-<h3>Mockup and User Flow</h3>
+<h3>Ideation and design</h3>
 
-Denver-Brew-Review, by design, is a desktop application that a user can use to log reviews of breweries they have visited. It is comprised of a landing page that requires Login/Registration authentication, leading to a reviews forum and links to Google maps. Inside the reviews forum the user can Create, Update, Delete, See, and grab reviews of breweries thay and others have visited. The Google maps allows the User to see the location of breweries in the area.   
+Denver-Brew-Review, by design, is a desktop application that a user can use to log reviews of breweries they have visited. It is comprised of a landing page that requires Login/Registration authentication, leading to a reviews forum and links to Google maps. Inside the reviews forum the user can Create, Update, Delete, See, and grab reviews of breweries thay and others have visited. The Google maps allows the User to see the location of breweries in the area. 
+
+The work flow of the project took shape by learning through tutorials that shaped the design and functionality. Initial ideas stem from the abundance of review sites that don't cater to particular niches of industries. The Denver Brew Review is centered on people who love craft beer, enjoy craft beer, and have informed opinions on the breweries, beers, and products. 
+
+Initial conception started with deciding on a new technology I had not worked with before so that I can learn an in demand framework (Angular) combined with the requirements of a functional backend that can be manipulated (Firebase/Firestore). These technologies are not only valuable resources and industry standards, they are technologies in high demand in the market and something I will master going forward. 
+
+I also have incorporated Google maps through the AGM installation so that I can learn the technology and integration of another in demand resource.      
 
 
 
