@@ -63,22 +63,24 @@ Below is a link to my Trello buildout of what a User can expect to see and do:
 Link to [Trello](https://trello.com/b/F2xmyV18/denver-brew-review)
 
 <h3>Technologies Used</h3>
-Firebase Authentication Docs [Firebase]
-(https://firebase.google.com/docs/)<br>
-FireStore Databse Docs [Firestore]
-(https://firebase.google.com/docs/firestore/)<br>
-Angular 4+ Docs [Angular]
-(https://angular.io/docs)<br>
-Angular Google Maps Docs [Google Maps Api]
-(https://angular-maps.com/api-docs/)<br>
+
+Firebase Authentication Docs [Firebase](https://firebase.google.com/docs/)<br>
+FireStore Databse Docs [Firestore](https://firebase.google.com/docs/firestore/)<br>
+Angular 4+ Docs [Angular](https://angular.io/docs)<br>
+Angular Google Maps Docs [Google Maps Api](https://angular-maps.com/api-docs/)<br>
+
 <br>
 CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment
 <br>
-
+<br>
 Hurdles faced in learning new technologies:
 The biggest hurdles I faced when tackling this project centered around learning a new authentication system, database, integration of Google maps, and deployment to a platform I had never used before. 
 
 Communicating with the back end in a different way definitely at times became a problem. I learned a lot about [snapshot](https://firebase.google.com/docs/firestore/query-data/get-data) and how to capture individual id's from the url. Setup and deployment in firebase is well documented and I suggest all those that want to learn the resource to read further from the links or take a turorial. Google maps integration was on the surface an easy integration but the functionality is a fun one to learn. The documentation is not very good and leaves some gaps to fill.
+
+Also the virtues of component driven SAP's is an extremely valuable tool to have in the arsenal. I have gotten definetely more comfortable with the concept, creation, and implementation but realize there is much more to learn.
+
+
 
 
 
