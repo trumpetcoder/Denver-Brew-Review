@@ -34,8 +34,8 @@ Be deployed online so it's publicly accessible<br>
 A working API, hosted somewhere on the internet [Google Maps Api](https://angular-maps.com/api-docs/)<br>
 A working front-end, hosted somewhere on the internet [Firebase Hosting](https://denverbrewreview.firebaseapp.com/login)<br>
 A link to your hosted working app in the URL section of your Github repo [Firebase Hosting](https://denverbrewreview.firebaseapp.com/login)<br>
-A git repository hosted on Github, with a link to your hosted project, and frequent [Git Repo](https://github.com/trumpetcoder/Denver-Brew-Review)<br>
-commits dating back to the very beginning of the project<br>
+A git repository hosted on Github, with a link to your hosted project, and frequent <br>
+commits dating back to the very beginning of the project [Git Repo](https://github.com/trumpetcoder/Denver-Brew-Review)<br>
 A readme.md file with:<br>
 An embedded screenshot of the app<br>
 Explanations of the technologies used<br>
@@ -68,7 +68,13 @@ FireStore Databse Docs [Firestore](https://firebase.google.com/docs/firestore/)<
 Angular 4+ Docs [Angular](https://angular.io/docs)<br>
 Angular Google Maps Docs [Google Maps Api](https://angular-maps.com/api-docs/)<br>
 <br>
-CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment<br>
+CSS | HTML | Bootstrap | jQuery | Trello | Mockflow | Firebase Deployment
+<br>
+
+Hurdles faced in learning new technologies:
+The biggest hurdles I faced when tackling this project centered around learning a new authentication system, database, integration of Google maps, and deployment to a platform I had never used before. 
+
+Communicating with the back end in a different way definitely at times became a problem. I learned alot about [snapshot](https://firebase.google.com/docs/firestore/query-data/get-data)
 
 
 
