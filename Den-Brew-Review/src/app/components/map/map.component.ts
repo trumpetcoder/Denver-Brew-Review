@@ -16,21 +16,32 @@ export interface Marker {
 export class MapComponent implements OnInit {
   markers: Array<Marker> = [
     {
-      lat: 39.7706451,
-      lng: -104.8699091,
-      title: 'one' 
+      lat: 39.7697,
+      lng: -104.9728,
+      title: 'Black Shirt Brewing' 
     },
     {
-      lat: 39.7706451,
-      lng: -104.9699096,
-      title: 'two'
+      lat: 39.7523,
+      lng: -104.9914,
+      title: 'Jagged Mountain'
     },
+    {
+      lat: 39.7534,
+      lng: -104.9985,
+      title: 'Wynkoop Brewing'
+    },
+    {
+      lat: 39.7538,
+      lng: -104.9885,
+      title: 'Great Divide'
+    },
+
   ];
 
   //map coordinates setting zoom level
   lat: number;
   lng: number;
-  zoom = 15;
+  zoom = 13;
 
   constructor() { }
 
