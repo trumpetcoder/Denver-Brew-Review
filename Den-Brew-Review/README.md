@@ -82,6 +82,10 @@ Communicating with the back end in a different way definitely at times became a 
 
 Also the virtues of component driven SAP's is an extremely valuable tool to have in the arsenal. I have gotten definetely more comfortable with the concept, creation, and implementation but realize there is much more to learn.
 
+<h3>Screen Shots of Denver-Brew-Review</h3>
+
+![screen shot 2018-02-27 at 11 43 04 am height: 100px; width: 100px](https://user-images.githubusercontent.com/29238789/36747953-af0f6078-1bb3-11e8-84f9-884bf1250b71.png)
+
 
 
 
