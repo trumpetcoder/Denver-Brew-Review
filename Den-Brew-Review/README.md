@@ -19,29 +19,31 @@ Link to [Untapped](https://untappd.com/)<br>
 <h3>Technical Requirements</h3>
 Your app must:
 
-Be a full-stack application
-Consume and/or serve an API
-Have an interactive front-end, preferably using a modern front-end framework
-Be a complete product, which most likely means multiple relationships and CRUD functionality for at least a couple models
-Use a database, whether that's one we've covered in class or one you want to learn
-Implement thoughtful user stories that are significant enough to help you know which features to build and which to scrap
-Have a visually impressive design to kick your portfolio up a notch and have something to wow future clients & employers
-Be deployed online so it's publicly accessible
+Be a full-stack application<br>
+Consume and/or serve an API<br>
+Have an interactive front-end, preferably using a modern front-end framework<br>
+Be a complete product, which most likely means multiple relationships and CRUD<br> functionality for at least a couple models<br>
+Use a database, whether that's one we've covered in class or one you want to learn<br>
+Implement thoughtful user stories that are significant enough to help you know<br> 
+which features to build and which to scrap<br>
+Have a visually impressive design to kick your portfolio up a notch and have something<br> to wow future clients & employers<br>
+Be deployed online so it's publicly accessible<br>
 
 <h3>Necessary Deliverables</h3>
 
-A working API, hosted somewhere on the internet
-A working front-end, hosted somewhere on the internet
-A link to your hosted working app in the URL section of your Github repo
-A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project
-A readme.md file with:
-An embedded screenshot of the app
-Explanations of the technologies used
-A couple paragraphs about the general approach you took
-Installation instructions for any dependencies
-Link to your user stories – who are your users, what do they want, and why?
-Link to your wireframes – sketches of major views / interfaces in your application
-Descriptions of any unsolved problems or major hurdles you had to overcome
+A working API, hosted somewhere on the internet<br>
+A working front-end, hosted somewhere on the internet<br>
+A link to your hosted working app in the URL section of your Github repo<br>
+A git repository hosted on Github, with a link to your hosted project, and frequent<br>
+commits dating back to the very beginning of the project<br>
+A readme.md file with:<br>
+An embedded screenshot of the app<br>
+Explanations of the technologies used<br>
+A couple paragraphs about the general approach you took<br>
+Installation instructions for any dependencies<br>
+Link to your user stories – who are your users, what do they want, and why?<br>
+Link to your wireframes – sketches of major views / interfaces in your application<br>
+Descriptions of any unsolved problems or major hurdles you had to overcome<br>
 
 <h3>Mockup and User Flow</h3>
 
