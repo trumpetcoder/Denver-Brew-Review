@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md mb-4">
   <div class="container">
-    <a routerLink='/' class="navbar-brand">Denver-Brew</a>
+    <a routerLink='/' class="navbar-brand"><i class="fa fa-beer"></i> Denver-Brew</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +22,7 @@
         </li>
 
           <li *ngIf="isLoggedIn" class="nav-item">
-            <a href="#" class="nav-link">{{ loggedInUser }}</a>
+            <a href="#" class="nav-link">Logged In As: ({{ loggedInUser }})</a>
           </li>
 
           <li *ngIf="isLoggedIn" class="nav-item">
