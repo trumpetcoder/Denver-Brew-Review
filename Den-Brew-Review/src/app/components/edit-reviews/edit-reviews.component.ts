@@ -10,7 +10,7 @@ import { Reviews } from '../../models/Reviews'; // Importing Reviews Model
   styleUrls: ['./edit-reviews.component.css']
 })
 export class EditReviewsComponent implements OnInit {
-  // properties to manipulate
+  // properties to manipulate from Reviews interface
   id: string;
   review: Reviews = {
     breweryName: '',
@@ -34,10 +34,10 @@ export class EditReviewsComponent implements OnInit {
       
     }
     
-  onSubmit({value, valid}: {value: Reviews, valid: boolean}) {
+  onSubmit({value, valid}: {value: Reviews, valid: boolean}) { // checking for validation
     if(!valid) {
       this.flashMessage.show('Please complete your edits', {
-        cssClass: 'alert-danger', timeout: 4000
+        cssClass: 'alert-danger', timeout: 4000 // error handling
       });
     } else {
       //adding id to review
@@ -45,9 +45,9 @@ export class EditReviewsComponent implements OnInit {
       //updating review logic
       this.reviewsService.updateReview(value);
       this.flashMessage.show('Review updated', {
-        cssClass: 'alert-success', timeout: 4000
+        cssClass: 'alert-success', timeout: 4000 // success handling
       });
-      this.router.navigate(['/reviews/'+this.id]);
+      this.router.navigate(['/reviews/'+this.id]); // returns to edited post
     }
   }
 }
